@@ -37,7 +37,7 @@ export default function Accordion(){
       //있었으면 배열에서 제거 splice(인덱스, 몇개없앨건지)
       copyList.splice(findIdxOfId,1)  //찾은 인덱스로부터 1개업ㅄㅂ앰
     }
-    // setSelectedList(copyList)
+    setSelectedList(copyList)
     // console.log(selectedList)
   }
 
